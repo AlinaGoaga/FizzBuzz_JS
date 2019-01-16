@@ -24,4 +24,13 @@ describe('function fizzbuzz(), returns the number or a string', () => {
   it('returns Buzz instead of the number for multiple of 5s', () => {
     expect(fizzbuzz(10)).toEqual('Buzz');
   });
+
+  it('returns FizzBuzz instead of the number if the number is 15', () => {
+    expect(fizzbuzz(15)).toEqual('FizzBuzz');
+  });
+
+  it('returns FizzBuzz instead of the number for multiple of 15', () => {
+    expect(fizzbuzz(75)).toEqual('FizzBuzz');
+  });
+
 });
