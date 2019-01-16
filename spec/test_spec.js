@@ -5,6 +5,10 @@ describe('function fizzbuzz(), returns the number or a string', () => {
     expect(typeof fizzbuzz).toBe('function');
   });
 
+  it('throws an error for invalid input "something"', () => {
+  expect(function() { fizzbuzz("something") }).toThrow(new Error("Invalid input"));
+  });
+
   it('returns 1 when given 1', () => {
     expect(fizzbuzz(1)).toEqual(1);
   });
