@@ -1,6 +1,6 @@
 # FizzBuzz_JS
 
-Solved FizzBuzz in JS using a TDD approach with Jasmine. 
+Solved FizzBuzz in JS using a TDD approach with Jasmine (node.js version)
 
 To run the script and tests: 
 - clone the repository and cd into it 
